@@ -7,5 +7,4 @@ if __name__ != "__main__":
 
 for name in dir(hidden):
 	if name[:2] != "__":
-		x = sorted(name)
-		print(x)
+		print(name)
