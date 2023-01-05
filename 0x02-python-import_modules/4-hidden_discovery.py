@@ -6,5 +6,6 @@ if __name__ != "__main__":
 	exit()
 
 for name in dir(hidden):
-	if name[:1] != "__":
-		print(name)
+	if name[:2] != "__":
+		x = sorted(name)
+		print(x)
